@@ -1,15 +1,3 @@
----
-
-secrets:
-  cloudflare-token:
-    file: ./secrets/cloudflare-token.secret
-  cloudflare-email:
-    file: ./secrets/cloudflare-email.secret
-  openvpn_user:
-    file: ./secrets/openvpn_user.secret
-  openvpn_password:
-    file: ./secrets/openvpn_password.secret
-
 services:
   traefik:
     image: traefik
